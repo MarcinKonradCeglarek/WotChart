@@ -1,0 +1,687 @@
+{
+    "status": "ok",
+    "meta": {
+        "count": 1
+    },
+    "data": {
+        "500146702": {
+            "leader_id": 503061161,
+            "color": "#AD33FA",
+            "updated_at": 1623790802,
+            "private": null,
+            "tag": "THARD",
+            "members_count": 91,
+            "description_html": "<p><strong>Oferujemy<\/strong>: \n<br\/>- Gold za udział w CW i grach wojennych \n<br\/>- Bonusy z twierdzy 10 poziomu (<strong>ok 10 rezerw codziennie<\/strong>)\n<br\/>- Możliwość walki o nagrody na mapie globalnej (35 czołgów w kampanii &quot;Narodziny przemysłu&quot;, 16 czołgów w kampanii &quot;Renesans&quot;)\n<br\/>- Rozwój umiejętności gry zespołowej\n<br\/>- 1 bon tygodniowo na &quot;zupę lub danie dnia&quot; w stołówce klanowej\n<\/p><p>\n<br\/><strong>Wymagamy<\/strong>: \n<br\/>- WN8 na poziomie 1300 + z tendencją wzrostową z 30 dni \n<br\/>- min. 3 grywalnych czołgów X tieru ( WN8 na poziomie 2000+)\n<br\/>- TS3 + sprawny mikrofon + 16+\n<br\/>- <i>Obowiązkowa obecność na natarciach (20:00 lub 21.00) - jak i również na pierwszej turze gier wojennych (19:00 - 22:00)<\/i>\n<br\/>- aktywny udział w życiu klanu\n<br\/>- prawo jazdy kategorii &quot;T&quot; \n<\/p><p>\n<br\/>Po więcej informacji w sprawie rekrutacji proszę kontaktować się z oficerami (Dan_Darius, \n<br\/>kactank) lub wejść na komunikator z adresem podanym poniżej.\n<br\/><strong>Team Speak 3: thard.tsdns.pl<\/strong>\n<\/p><p>\n<br\/>Każde podanie rozpatrujemy indywidualnie. \n<\/p><p>\n<br\/>*Zapraszamy\n<\/p>",
+            "accepts_join_requests": false,
+            "leader_name": "Dan_Darius",
+            "emblems": {
+                "x32": {
+                    "portal": "https:\/\/eu.wargaming.net\/clans\/media\/clans\/emblems\/cl_702\/500146702\/emblem_32x32.png"
+                },
+                "x24": {
+                    "portal": "https:\/\/eu.wargaming.net\/clans\/media\/clans\/emblems\/cl_702\/500146702\/emblem_24x24.png"
+                },
+                "x256": {
+                    "wowp": "https:\/\/eu.wargaming.net\/clans\/media\/clans\/emblems\/cl_702\/500146702\/emblem_256x256.png"
+                },
+                "x64": {
+                    "wot": "https:\/\/eu.wargaming.net\/clans\/media\/clans\/emblems\/cl_702\/500146702\/emblem_64x64_tank.png",
+                    "portal": "https:\/\/eu.wargaming.net\/clans\/media\/clans\/emblems\/cl_702\/500146702\/emblem_64x64.png"
+                },
+                "x195": {
+                    "portal": "https:\/\/eu.wargaming.net\/clans\/media\/clans\/emblems\/cl_702\/500146702\/emblem_195x195.png"
+                }
+            },
+            "clan_id": 500146702,
+            "renamed_at": 1566601396,
+            "old_tag": "CLOS3",
+            "description": "*Oferujemy*: \n- Gold za udział w CW i grach wojennych \n- Bonusy z twierdzy 10 poziomu (*ok 10 rezerw codziennie*)\n- Możliwość walki o nagrody na mapie globalnej (35 czołgów w kampanii \"Narodziny przemysłu\", 16 czołgów w kampanii \"Renesans\")\n- Rozwój umiejętności gry zespołowej\n- 1 bon tygodniowo na \"zupę lub danie dnia\" w stołówce klanowej\n\n\n*Wymagamy*: \n- WN8 na poziomie 1300 + z tendencją wzrostową z 30 dni \n- min. 3 grywalnych czołgów X tieru ( WN8 na poziomie 2000+)\n- TS3 + sprawny mikrofon + 16+\n- _Obowiązkowa obecność na natarciach (20:00 lub 21.00) - jak i również na pierwszej turze gier wojennych (19:00 - 22:00)_\n- aktywny udział w życiu klanu\n- prawo jazdy kategorii \"T\" \n\nPo więcej informacji w sprawie rekrutacji proszę kontaktować się z oficerami (Dan_Darius, \nkactank) lub wejść na komunikator z adresem podanym poniżej.\n*Team Speak 3: thard.tsdns.pl*\n\nKażde podanie rozpatrujemy indywidualnie. \n\n*Zapraszamy",
+            "members": [
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1622836136,
+                    "account_id": 560433669,
+                    "account_name": "ZSRR___"
+                },
+                {
+                    "role": "private",
+                    "role_i18n": "Private",
+                    "joined_at": 1621017378,
+                    "account_id": 525928986,
+                    "account_name": "M_A_R_C_E_L_1"
+                },
+                {
+                    "role": "private",
+                    "role_i18n": "Private",
+                    "joined_at": 1609247234,
+                    "account_id": 527922718,
+                    "account_name": "lisuux3"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1620486162,
+                    "account_id": 530097701,
+                    "account_name": "gawelo12345"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1623074788,
+                    "account_id": 500522023,
+                    "account_name": "Hypershock"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1623790761,
+                    "account_id": 537929769,
+                    "account_name": "Szymek_199"
+                },
+                {
+                    "role": "personnel_officer",
+                    "role_i18n": "Personnel Officer",
+                    "joined_at": 1580582798,
+                    "account_id": 552003636,
+                    "account_name": "droknok"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1620728459,
+                    "account_id": 525678650,
+                    "account_name": "MrOFF_PL"
+                },
+                {
+                    "role": "private",
+                    "role_i18n": "Private",
+                    "joined_at": 1619963195,
+                    "account_id": 507280443,
+                    "account_name": "miraceti"
+                },
+                {
+                    "role": "private",
+                    "role_i18n": "Private",
+                    "joined_at": 1620241967,
+                    "account_id": 503572029,
+                    "account_name": "xFASIOR"
+                },
+                {
+                    "role": "private",
+                    "role_i18n": "Private",
+                    "joined_at": 1610482037,
+                    "account_id": 500837438,
+                    "account_name": "__rEE__"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1622809621,
+                    "account_id": 517004867,
+                    "account_name": "2fast4you76"
+                },
+                {
+                    "role": "combat_officer",
+                    "role_i18n": "Combat Officer",
+                    "joined_at": 1620940264,
+                    "account_id": 511918672,
+                    "account_name": "rolson2"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1622673416,
+                    "account_id": 507701334,
+                    "account_name": "___Hello_There___"
+                },
+                {
+                    "role": "private",
+                    "role_i18n": "Private",
+                    "joined_at": 1617386200,
+                    "account_id": 519899225,
+                    "account_name": "Ragedeer"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1622901384,
+                    "account_id": 528076890,
+                    "account_name": "Dont_Look_ATme"
+                },
+                {
+                    "role": "private",
+                    "role_i18n": "Private",
+                    "joined_at": 1589140292,
+                    "account_id": 503174748,
+                    "account_name": "bratdalton"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1621970053,
+                    "account_id": 502091871,
+                    "account_name": "PetarSuS"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1622800514,
+                    "account_id": 505082477,
+                    "account_name": "jebutne_wibracje"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1622997009,
+                    "account_id": 514657907,
+                    "account_name": "Am0n90"
+                },
+                {
+                    "role": "junior_officer",
+                    "role_i18n": "Junior Officer",
+                    "joined_at": 1557262377,
+                    "account_id": 536152180,
+                    "account_name": "Marcin_Kinicki"
+                },
+                {
+                    "role": "combat_officer",
+                    "role_i18n": "Combat Officer",
+                    "joined_at": 1608143446,
+                    "account_id": 500119163,
+                    "account_name": "Darnok_"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1622800526,
+                    "account_id": 503241344,
+                    "account_name": "_dareckipi_"
+                },
+                {
+                    "role": "private",
+                    "role_i18n": "Private",
+                    "joined_at": 1620306641,
+                    "account_id": 515197581,
+                    "account_name": "krzysiekflakus"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1622716785,
+                    "account_id": 502573200,
+                    "account_name": "robert_w10"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1623101393,
+                    "account_id": 503141009,
+                    "account_name": "Diego127"
+                },
+                {
+                    "role": "junior_officer",
+                    "role_i18n": "Junior Officer",
+                    "joined_at": 1607472938,
+                    "account_id": 508448402,
+                    "account_name": "Nesasio117"
+                },
+                {
+                    "role": "private",
+                    "role_i18n": "Private",
+                    "joined_at": 1622369926,
+                    "account_id": 548263572,
+                    "account_name": "jacobwiniar"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1622800752,
+                    "account_id": 520866453,
+                    "account_name": "jaszczur_zybex"
+                },
+                {
+                    "role": "commander",
+                    "role_i18n": "Commander",
+                    "joined_at": 1578745572,
+                    "account_id": 503061161,
+                    "account_name": "Dan_Darius"
+                },
+                {
+                    "role": "private",
+                    "role_i18n": "Private",
+                    "joined_at": 1618048077,
+                    "account_id": 528536760,
+                    "account_name": "aFalT"
+                },
+                {
+                    "role": "private",
+                    "role_i18n": "Private",
+                    "joined_at": 1610006255,
+                    "account_id": 544453312,
+                    "account_name": "KapselKapi"
+                },
+                {
+                    "role": "combat_officer",
+                    "role_i18n": "Combat Officer",
+                    "joined_at": 1622404379,
+                    "account_id": 518603464,
+                    "account_name": "CzupaCzupsXII"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1621802028,
+                    "account_id": 530099926,
+                    "account_name": "Frog424"
+                },
+                {
+                    "role": "executive_officer",
+                    "role_i18n": "Executive Officer",
+                    "joined_at": 1605550309,
+                    "account_id": 536398043,
+                    "account_name": "Look_and_Die"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1622807758,
+                    "account_id": 508093148,
+                    "account_name": "Call_Me_Poor_Leno"
+                },
+                {
+                    "role": "executive_officer",
+                    "role_i18n": "Executive Officer",
+                    "joined_at": 1588789039,
+                    "account_id": 509946592,
+                    "account_name": "Rzeziblaha_PL"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1622982229,
+                    "account_id": 502709474,
+                    "account_name": "kobe_24_8"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1621621784,
+                    "account_id": 501725416,
+                    "account_name": "lopose"
+                },
+                {
+                    "role": "private",
+                    "role_i18n": "Private",
+                    "joined_at": 1609952674,
+                    "account_id": 502496492,
+                    "account_name": "EliteRoses"
+                },
+                {
+                    "role": "private",
+                    "role_i18n": "Private",
+                    "joined_at": 1621017295,
+                    "account_id": 528934125,
+                    "account_name": "567_15"
+                },
+                {
+                    "role": "private",
+                    "role_i18n": "Private",
+                    "joined_at": 1622834784,
+                    "account_id": 501038324,
+                    "account_name": "Wojtas_1303"
+                },
+                {
+                    "role": "private",
+                    "role_i18n": "Private",
+                    "joined_at": 1618600531,
+                    "account_id": 500133128,
+                    "account_name": "Antrophy"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1622879176,
+                    "account_id": 502353161,
+                    "account_name": "Call_Me_Pablo69"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1618467961,
+                    "account_id": 506913035,
+                    "account_name": "Andre2484"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1622666554,
+                    "account_id": 500561676,
+                    "account_name": "UberWaffelMiau666"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1622823976,
+                    "account_id": 518238482,
+                    "account_name": "Adam863"
+                },
+                {
+                    "role": "recruitment_officer",
+                    "role_i18n": "Recruitment Officer",
+                    "joined_at": 1622735974,
+                    "account_id": 504866071,
+                    "account_name": "__Zemsta_"
+                },
+                {
+                    "role": "reservist",
+                    "role_i18n": "Reservist",
+                    "joined_at": 1618585659,
+                    "account_id": 519830297,
+                    "account_name": "Wazzaap_12"
+                },
+                {
+                    "role": "private",
+                    "role_i18n": "Private",
+                    "joined_at": 1621622222,
+                    "account_id": 503643418,
+                    "account_name": "CaptainAdams"
+                },
+                {
+                    "role": "private",
+                    "role_i18n": "Private",
+                    "joined_at": 1614890871,
+                    "account_id": 554496798,
+                    "account_name": "ihatt3uto"
+                },
+                {
+                    "role": "private",
+                    "role_i18n": "Private",
+                    "joined_at": 1618078887,
+                    "account_id": 506714408,
+                    "account_name": "garond123"
+                },
+                {
+                    "role": "private",
+                    "role_i18n": "Private",
+                    "joined_at": 1610914414,
+                    "account_id": 501900592,
+                    "account_name": "ZBOJ_MECZYDUPA"
+                },
+                {
+                    "role": "private",
+                    "role_i18n": "Private",
+                    "joined_at": 1622110021,
+                    "account_id": 503513911,
+                    "account_name": "Paskudnik01"
+                },
+                {
+                    "role": "private",
+                    "role_i18n": "Private",
+                    "joined_at": 1615047068,
+                    "account_id": 548536884,
+                    "account_name": "colourful_sousage"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1622906981,
+                    "account_id": 504446779,
+                    "account_name": "Mr_Dimitrescu"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1621090567,
+                    "account_id": 503170784,
+                    "account_name": "Vertyha228"
+                },
+                {
+                    "role": "combat_officer",
+                    "role_i18n": "Combat Officer",
+                    "joined_at": 1608143446,
+                    "account_id": 500652869,
+                    "account_name": "HegemonPrime"
+                },
+                {
+                    "role": "private",
+                    "role_i18n": "Private",
+                    "joined_at": 1587503230,
+                    "account_id": 522413899,
+                    "account_name": "Maks_is_Legend"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1623615364,
+                    "account_id": 503100749,
+                    "account_name": "benio00"
+                },
+                {
+                    "role": "private",
+                    "role_i18n": "Private",
+                    "joined_at": 1619862380,
+                    "account_id": 527383886,
+                    "account_name": "__FURIA__102"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1622823828,
+                    "account_id": 537037655,
+                    "account_name": "LeoBonhard"
+                },
+                {
+                    "role": "private",
+                    "role_i18n": "Private",
+                    "joined_at": 1608138008,
+                    "account_id": 516797788,
+                    "account_name": "damiankop"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1623227929,
+                    "account_id": 523792231,
+                    "account_name": "fabioost"
+                },
+                {
+                    "role": "private",
+                    "role_i18n": "Private",
+                    "joined_at": 1615152270,
+                    "account_id": 566577571,
+                    "account_name": "Nilew"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1623227926,
+                    "account_id": 517016435,
+                    "account_name": "BlackRoger12"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1622879165,
+                    "account_id": 564134974,
+                    "account_name": "AAAleJeblo"
+                },
+                {
+                    "role": "private",
+                    "role_i18n": "Private",
+                    "joined_at": 1619866325,
+                    "account_id": 501007225,
+                    "account_name": "Helmor"
+                },
+                {
+                    "role": "private",
+                    "role_i18n": "Private",
+                    "joined_at": 1618519312,
+                    "account_id": 503080597,
+                    "account_name": "keciki"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1622736623,
+                    "account_id": 500625292,
+                    "account_name": "Iras"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1623002218,
+                    "account_id": 519677838,
+                    "account_name": "dzimimen"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1622808957,
+                    "account_id": 501084049,
+                    "account_name": "ja_Janosik"
+                },
+                {
+                    "role": "private",
+                    "role_i18n": "Private",
+                    "joined_at": 1622473496,
+                    "account_id": 565522324,
+                    "account_name": "Anonimowy2k20"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1622805683,
+                    "account_id": 512056213,
+                    "account_name": "Call_Me_Jaro69"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1622802446,
+                    "account_id": 500474269,
+                    "account_name": "tamir"
+                },
+                {
+                    "role": "intelligence_officer",
+                    "role_i18n": "Intelligence Officer",
+                    "joined_at": 1533922987,
+                    "account_id": 501908387,
+                    "account_name": "Rodis91"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1623621501,
+                    "account_id": 563210039,
+                    "account_name": "_Wolny__Strzelec_"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1620639746,
+                    "account_id": 545545138,
+                    "account_name": "Davidian_SC"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1623128582,
+                    "account_id": 552950713,
+                    "account_name": "tank3903_2018"
+                },
+                {
+                    "role": "combat_officer",
+                    "role_i18n": "Combat Officer",
+                    "joined_at": 1607528346,
+                    "account_id": 503314874,
+                    "account_name": "Pruszko"
+                },
+                {
+                    "role": "private",
+                    "role_i18n": "Private",
+                    "joined_at": 1609250196,
+                    "account_id": 547485129,
+                    "account_name": "Ariel_Da_Prosz3k"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1620742055,
+                    "account_id": 548613027,
+                    "account_name": "Drumet"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1622923999,
+                    "account_id": 503814614,
+                    "account_name": "karas1380"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1622925631,
+                    "account_id": 516531161,
+                    "account_name": "jaro530"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1622826107,
+                    "account_id": 513949667,
+                    "account_name": "Kernis11"
+                },
+                {
+                    "role": "private",
+                    "role_i18n": "Private",
+                    "joined_at": 1607716696,
+                    "account_id": 570039274,
+                    "account_name": "Radas78"
+                },
+                {
+                    "role": "private",
+                    "role_i18n": "Private",
+                    "joined_at": 1614626267,
+                    "account_id": 542170094,
+                    "account_name": "janek334"
+                },
+                {
+                    "role": "recruit",
+                    "role_i18n": "Recruit",
+                    "joined_at": 1621762048,
+                    "account_id": 526869489,
+                    "account_name": "halakey"
+                },
+                {
+                    "role": "private",
+                    "role_i18n": "Private",
+                    "joined_at": 1617923678,
+                    "account_id": 501460466,
+                    "account_name": "NumIock"
+                },
+                {
+                    "role": "combat_officer",
+                    "role_i18n": "Combat Officer",
+                    "joined_at": 1611940392,
+                    "account_id": 518675956,
+                    "account_name": "BassEnjoyer"
+                },
+                {
+                    "role": "private",
+                    "role_i18n": "Private",
+                    "joined_at": 1618048063,
+                    "account_id": 505117686,
+                    "account_name": "YoshinaNara"
+                }
+            ],
+            "old_name": "Unique Players",
+            "is_clan_disbanded": false,
+            "motto": "",
+            "name": "Go THard Or Go Home",
+            "creator_name": "olekmasterofdeath",
+            "created_at": 1490721019,
+            "creator_id": 516893754
+        }
+    }
+}
