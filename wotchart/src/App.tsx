@@ -1,5 +1,5 @@
 // import React from "react";
-import Drawer from "./navigation/Drawer";
+import Drawer from "./navigation/drawer";
 import {
   BrowserRouter as Router,
   Switch,

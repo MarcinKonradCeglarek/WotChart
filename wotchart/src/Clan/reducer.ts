@@ -1,32 +1,25 @@
-// src/store/reducer1/action.ts
+import { Actions } from "../store/type";
 
-import { ActionsUnion, DispatchAction } from "../store/type";
-import { createAction } from "../store/action";
+import { ActionTypes } from "./action";
 
-export enum ActionTypes {
-  Action1 = "Action1",
-  Action2 = "Action2"
-}
-
-export type Action1Options = {
-  foo: string;
-};
-export const Actions = {
-  action1: (options: Action1Options) =>
-    createAction(ActionTypes.Action1, options),
-  action2: () => createAction(ActionTypes.Action2)
+export type Reducer1State = {
+  foo?: string;
 };
 
-export type Actions = ActionsUnion<typeof Actions>;
+const initialState: Readonly<Reducer1State> = {};
 
-export function action1(options: Action1Options): DispatchAction {
-  return async dispatch => {
-    dispatch(Actions.action1(options));
-  };
-}
-export function action2(): DispatchAction {
-  return async dispatch => {
-    const response = await fetch("https://example.com"); // some async action
-    dispatch(Actions.action2());
-  };
+export function reducer(
+  state: Reducer1State = initialState,
+  action: Actions
+): Reducer1State {
+  switch (action.type) {
+    case ActionTypes.Action1: {
+      const { foo } = action.payload;
+      return { foo };
+    }
+    case ActionTypes.Action2:
+      return { ...initialState };
+    default:
+      return state;
+  }
 }
