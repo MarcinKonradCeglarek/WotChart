@@ -7,7 +7,7 @@ interface ResponseMeta {
     total: number;
 }
 
-export interface Response {
+interface Response {
     status: ResponseStatus;
     meta: ResponseMeta;
 }
@@ -17,7 +17,7 @@ export interface ClanDetailsRequest {
     clan_id: string;
 }
 
-export interface ClanDetailsResponse extends ResponseMeta {
+export interface ClanDetailsResponse extends Response {
     data: ClanDetails[];
 }
 
