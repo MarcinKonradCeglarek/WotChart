@@ -2,32 +2,35 @@
 
 import { ActionsUnion, DispatchAction } from "../store/type";
 import { createAction } from "../store/action";
+import { ClanDetails } from "./models";
 
 export enum ActionTypes {
-  Action1 = "Action1",
-  Action2 = "Action2"
+  FETCH_CLAN_DETAILS_SUCCEDED = "FETCH_CLAN_DETAILS_SUCCEDED",
+  FETCH_CLAN_DETAILS_REQUESTED = "FETCH_CLAN_DETAILS_REQUESTED"
 }
 
-export type Action1Options = {
-  foo: string;
+export type FetchClanDetailsOptions = {
+  clanId: number;
 };
 
 export const Actions = {
-  action1: (options: Action1Options) =>
-    createAction(ActionTypes.Action1, options),
-  action2: () => createAction(ActionTypes.Action2)
+  fetchClanDetailsRequested: (options: FetchClanDetailsOptions) => createAction(ActionTypes.FETCH_CLAN_DETAILS_REQUESTED, options),
+  fetchClanDetailsSucceded: (data: ClanDetails) => createAction(ActionTypes.FETCH_CLAN_DETAILS_SUCCEDED, data)
 };
 
 export type Actions = ActionsUnion<typeof Actions>;
 
-export function action1(options: Action1Options): DispatchAction {
+export function fetchClanDetailsRequested(options: FetchClanDetailsOptions): DispatchAction {
   return async dispatch => {
-    dispatch(Actions.action1(options));
+    const applicationId = "8bebb03d8875ee331a0ae47bf5dee273";
+    fetch(`https://api.worldoftanks.eu/wot/clans/info/?application_id=${applicationId}&clan_id=${options.clanId}`)
+      .then(response => response.json())
+      .then(data => dispatch(Actions.fetchClanDetailsSucceded(data.data)));
   };
 }
-export function action2(): DispatchAction {
-  return async dispatch => {
-    const response = await fetch("https://example.com"); 
-    dispatch(Actions.action2());
-  };
-}
+// export function action2(): DispatchAction {
+//   return async dispatch => {
+//     const response = await fetch("https://example.com"); 
+//     dispatch(Actions.action2());
+//   };
+// }

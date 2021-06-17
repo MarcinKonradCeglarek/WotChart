@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import logo from './logo.svg';
 import './App.css';
+import ClanTable from "./clan/table";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
         */}
         <Switch>
           <Route exact path="/">
-            <Home />
+            <ClanTable />
           </Route>
           <Route path="/about">
             <About />

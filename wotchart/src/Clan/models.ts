@@ -21,7 +21,7 @@ export interface ClanDetailsResponse extends Response {
     data: ClanDetails[];
 }
 
-interface ClanDetails {
+export interface ClanDetails {
     accepts_join_requests: boolean;
     clan_id: number;
     color: 	string;
@@ -42,7 +42,7 @@ interface ClanDetails {
     tag: string;
     updated_at: Date;
     emblems: ClanDetailsEmblems;
-    members: ClanDetailsMember;
+    members: ClanDetailsMember[];
 }
 
 interface ClanDetailsEmblems {

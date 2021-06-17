@@ -8,7 +8,7 @@ export function selectReducer1State(state: State): ClanReducerState {
   return state.clanReducer;
 }
 
-export const selectFoo = createSelector(
+export const getClanDetails = createSelector(
   selectReducer1State,
-  state => state.foo
+  state => state.clanDetails
 );
