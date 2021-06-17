@@ -1,46 +1,24 @@
-import { Component } from "react";
-import { connect } from "react-redux";
-import { getClanDetails } from ".";
-import { Dispatch, State } from "../store/type";
-import { Actions, FetchClanDetailsOptions } from "./action";
+import { Component, useCallback } from "react";
+import { useDispatch } from "react-redux";
+import { useClanDetails } from "./select";
+import { Dispatch } from "../store/type";
+import { Actions } from "./action";
 
-
-const mapState = (state: State) => ({
-    clanDetails: getClanDetails(state)
-  });
-  const mapDispatch = (dispatch: Dispatch) => ({
-    fetchClanDetailsRequested: (options: FetchClanDetailsOptions) => dispatch(Actions.fetchClanDetailsRequested(options))
-  });
-  
-  type ComponentProps = { };
-  type StateProps = ReturnType<typeof mapState>;
-  type DispatchProps = ReturnType<typeof mapDispatch>;
-  type Props = ComponentProps & StateProps & DispatchProps;
-  
-  class ClanTableImpl extends Component<Props> {
+  class ClanTable extends Component {
     componentDidMount() {
-        this.props.fetchClanDetailsRequested({ clanId: 500146702 });
+        const dispatch = useDispatch<Dispatch>();
+        const callback = useCallback(() => dispatch(Actions.fetchClanDetailsRequested({ clanId: 500146702 })), [dispatch]);
     }
    
     render() {
-        if (this.props.clanDetails) {
-            return (<>{this.props.clanDetails.members.map(m => (<div>{m.account_name}</div>))}</>);   
+        const clanDetails = useClanDetails();
+        if (clanDetails) {
+            return (<>{clanDetails.members.map(m => (<div>{m.account_name}</div>))}</>);   
         }
 
         return (<div>No data</div>)
     }
   }
 
-  export const ClanTable = connect<
-    StateProps,
-    DispatchProps,
-    ComponentProps,
-    State
-  >(
-    mapState,
-    mapDispatch
-  )(ClanTableImpl);
   
-
-   
   export default ClanTable;
