@@ -7,7 +7,7 @@ import { FetchClanDetailsOptions, fetchClanDetailsRequested } from "./action";
 import { seletClanDetails } from "./select";
 import { Table, TableContainer, TableHead, TableRow, TableCell, TableBody, Paper, Theme, createStyles, WithStyles, withStyles } from "@material-ui/core";
 import moment from "moment";
-import { ClanDetailsMember } from "./models";
+import { ClanDetailsMember } from "../model/clan";
 
 const styles = (theme: Theme) =>
     createStyles({
@@ -59,7 +59,6 @@ class ClanTableComponent extends Component<Props> {
                       {member.account_name}
                     </TableCell>
                     <TableCell align="right">{member.role_i18n}</TableCell>
-                    {/* <TableCell align="right">{moment(new Date(member.joined_at)).fromNow()}</TableCell> */}
                     <TableCell align="right" title={ moment(member.joined_at*1000).format("Do MMM YY")}>{ moment(member.joined_at*1000).fromNow()}</TableCell>
                   </TableRow>
                 ))}

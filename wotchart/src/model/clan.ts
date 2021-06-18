@@ -1,23 +1,12 @@
-enum ResponseStatus {
-    ok
-}
+import { BaseResponse } from "./general";
 
-interface ResponseMeta {
-    count: number;
-    total: number;
-}
-
-interface Response {
-    status: ResponseStatus;
-    meta: ResponseMeta;
-}
 
 export interface ClanDetailsRequest {
     application_id: string;
     clan_id: string;
 }
 
-export interface ClanDetailsResponse extends Response {
+export interface ClanDetailsResponse extends BaseResponse {
     data: ClanDetails[];
 }
 

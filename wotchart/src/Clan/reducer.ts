@@ -1,7 +1,7 @@
 import { Actions } from "../store/type";
 
 import { ActionTypes } from "./action";
-import { ClanDetails } from "./models";
+import { ClanDetails } from "../model/clan";
 
 export type Reducer1State = {
   isLoading: boolean;
