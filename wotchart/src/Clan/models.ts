@@ -56,7 +56,7 @@ interface ClanDetailsEmblems {
 interface ClanDetailsMember {
     account_id:	number;
     account_name: string;
-    joined_at: Date;
+    joined_at: number;
     role: string;
     role_i18n: string;
 }
