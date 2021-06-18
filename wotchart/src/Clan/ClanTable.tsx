@@ -7,12 +7,16 @@ import { FetchClanDetailsOptions, fetchClanDetailsRequested } from "./action";
 import { seletClanDetails } from "./select";
 import { Table, TableContainer, TableHead, TableRow, TableCell, TableBody, Paper, Theme, createStyles, WithStyles, withStyles } from "@material-ui/core";
 import moment from "moment";
+import { ClanDetailsMember } from "./models";
 
 const styles = (theme: Theme) =>
     createStyles({
       table: {
         minWidth: 650,
       },
+      header: {
+        fontWeight: 'bold'
+      }
     });
 
 const mapState = (state: State) => ({
@@ -35,22 +39,22 @@ class ClanTableComponent extends Component<Props> {
    
     render() {
         if (this.props.clanDetails && this.props.clanDetails.members) {
-          const orderedClanMembers = R.sortBy(R.compose<ClanDetailsMember[], string[], string[]>(R.toLower, R.prop('account_name')))(this.props.clanDetails.members);
+          const orderedClanMembers = R.sortBy<ClanDetailsMember>(m => m.account_name.toLowerCase())(this.props.clanDetails.members);
 
           return (<TableContainer component={Paper}>
             <Table className={this.props.classes.table} aria-label="simple table">
               <TableHead>
                 <TableRow>
-                <TableCell>Id</TableCell>
-                  <TableCell>Name</TableCell>
-                  <TableCell align="right">Role</TableCell>
-                  <TableCell align="right">Joined</TableCell>
+                  <TableCell className={this.props.classes.header}>Id</TableCell>
+                  <TableCell className={this.props.classes.header}>Name</TableCell>
+                  <TableCell className={this.props.classes.header} align="right">Role</TableCell>
+                  <TableCell className={this.props.classes.header} align="right">Joined</TableCell>
                 </TableRow>
               </TableHead>
               <TableBody>
                 {orderedClanMembers.map((member) => (
                   <TableRow key={member.account_id}>
-                    <TableCell align="right">{member.account_id}</TableCell>
+                    <TableCell>{member.account_id}</TableCell>
                     <TableCell component="th" scope="row">
                       {member.account_name}
                     </TableCell>

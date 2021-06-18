@@ -45,7 +45,7 @@ export interface ClanDetails {
     members: ClanDetailsMember[];
 }
 
-interface ClanDetailsEmblems {
+export interface ClanDetailsEmblems {
     x195: object;
     x24: object;
     x256: object;
@@ -53,7 +53,7 @@ interface ClanDetailsEmblems {
     x64: object;
 }
 
-interface ClanDetailsMember {
+export interface ClanDetailsMember {
     account_id:	number;
     account_name: string;
     joined_at: number;
