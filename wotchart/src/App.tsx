@@ -7,31 +7,36 @@ import {
 } from "react-router-dom";
 import logo from './logo.svg';
 import './App.css';
-import ClanTable from "./clan/table";
+import ClanTable from "./clan/ClanTable";
+import { StoreProvider } from "./store";
 
 function App() {
   return (
-    <Router>
-        <Drawer />
-        {/*
-          A <Switch> looks through all its children <Route>
-          elements and renders the first one whose path
-          matches the current URL. Use a <Switch> any time
-          you have multiple routes, but you want only one
-          of them to render at a time
-        */}
-        <Switch>
-          <Route exact path="/">
-            <ClanTable />
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/dashboard">
-            <Dashboard />
-          </Route>
-        </Switch>
-    </Router>
+    <StoreProvider>
+      <Router>
+          <Drawer />
+          {/*
+            A <Switch> looks through all its children <Route>
+            elements and renders the first one whose path
+            matches the current URL. Use a <Switch> any time
+            you have multiple routes, but you want only one
+            of them to render at a time
+          */}
+          <main>
+          <Switch>
+            <Route exact path="/">
+              <ClanTable />
+            </Route>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/dashboard">
+              <Dashboard />
+            </Route>
+          </Switch>
+          </main>
+      </Router>
+    </StoreProvider>
   );
 }
 

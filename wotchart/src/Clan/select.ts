@@ -4,11 +4,11 @@ import { State } from "../store/type";
 
 import { Reducer1State as ClanReducerState } from "./reducer";
 
-export function selectReducer1State(state: State): ClanReducerState {
+export function selectClanReducerState(state: State): ClanReducerState {
   return state.clanReducer;
 }
 
-export const getClanDetails = createSelector(
-  selectReducer1State,
+export const seletClanDetails = createSelector(
+  selectClanReducerState,
   state => state.clanDetails
 );
