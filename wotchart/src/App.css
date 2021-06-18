@@ -1,9 +1,9 @@
 @import-normalize;
 
 html, body, #root {
-  height: 100%;
+  min-height: 100%;
 }
 main {
-  height: calc(100% - 8vh);
+  min-height: calc(100% - 8vh);
   padding: 8vh
 }

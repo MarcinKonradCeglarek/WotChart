@@ -25,7 +25,7 @@ export function fetchClanDetailsRequested(options: FetchClanDetailsOptions): Dis
     const applicationId = "8bebb03d8875ee331a0ae47bf5dee273";
     fetch(`https://api.worldoftanks.eu/wot/clans/info/?application_id=${applicationId}&clan_id=${options.clanId}`)
       .then(response => response.json())
-      .then(data => dispatch(Actions.fetchClanDetailsSucceded(data.data)));
+      .then(data => dispatch(Actions.fetchClanDetailsSucceded(data.data[options.clanId])));
   };
 }
 // export function action2(): DispatchAction {

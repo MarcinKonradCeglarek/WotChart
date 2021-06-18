@@ -1,4 +1,6 @@
 import React, { ReactNode } from "react";
+import logger from 'redux-logger'
+
 import { applyMiddleware, compose, createStore } from "redux";
 import { Provider } from "react-redux";
 import thunkMiddleware from "redux-thunk";
@@ -13,7 +15,7 @@ const composeEnhancers =
 
 const store: Store = createStore(
   reducer,
-  composeEnhancers(applyMiddleware(thunkMiddleware))
+  composeEnhancers(applyMiddleware(thunkMiddleware, logger))
 );
 
 type Props = {
