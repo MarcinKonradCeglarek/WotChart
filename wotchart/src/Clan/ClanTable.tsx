@@ -60,7 +60,7 @@ class ClanTableComponent extends Component<Props> {
                     </TableCell>
                     <TableCell align="right">{member.role_i18n}</TableCell>
                     {/* <TableCell align="right">{moment(new Date(member.joined_at)).fromNow()}</TableCell> */}
-                    <TableCell align="right">{member.joined_at}</TableCell>
+                    <TableCell align="right" title={ moment(member.joined_at*1000).format("Do MMM YY")}>{ moment(member.joined_at*1000).fromNow()}</TableCell>
                   </TableRow>
                 ))}
               </TableBody>
