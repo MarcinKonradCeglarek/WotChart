@@ -45,6 +45,7 @@ interface PlayerStatistic {
     stronghold_defense: StatisticDetails;
     historical: StatisticDetails;
     team: StatisticDetails;
+    trees_cut: number;
 }
 
 export interface PlayerDetails {
